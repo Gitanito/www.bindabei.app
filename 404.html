@@ -1,4 +1,6 @@
 <script>
 var slug = location.pathname.slice(1);
-alert(slug);
+if (slug.length == 12) {
+	location.href = "//i-join.flutterflow.app/ab?cd=" + slug;
+}
 </script>
